@@ -16,7 +16,7 @@ def contact():
 
 @app.route('/hugo')
 def contact():
-    return "This is the Hugo Page."
+    return "This is the Hugo Page, Hello world."
 
 if __name__ == '__main__':
     app.run(debug=True)
